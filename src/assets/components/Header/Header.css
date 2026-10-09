@@ -5,12 +5,12 @@
   padding: 40px 20px;
 }
 
-.header__titulo {
+.header_titulo {
   margin: 0 0 8px;
   font-size: 2.2rem;
 }
 
-.header__subtitulo {
+.header_subtitulo {
   margin: 0;
   font-size: 1.1rem;
   opacity: 0.9;

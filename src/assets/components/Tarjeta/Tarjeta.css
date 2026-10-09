@@ -14,30 +14,30 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
-.tarjeta__icono {
+.tarjeta_icono {
   font-size: 2.5rem;
 }
 
-.tarjeta__titulo {
+.tarjeta_titulo {
   margin: 0;
   color: #2d3436;
 }
 
-.tarjeta__descripcion {
+.tarjeta_descripcion {
   margin: 0;
   color: #636e72;
   line-height: 1.5;
   flex-grow: 1;
 }
 
-.tarjeta__info {
+.tarjeta_info {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 0.9rem;
 }
 
-.tarjeta__nivel {
+.tarjeta_nivel {
   background: #dfe6e9;
   padding: 4px 10px;
   border-radius: 20px;
@@ -45,6 +45,6 @@
   color: #2d3436;
 }
 
-.tarjeta__duracion {
+.tarjeta_duracion {
   color: #636e72;
 }
