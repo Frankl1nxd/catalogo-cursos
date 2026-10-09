@@ -1,5 +1,6 @@
 import Header from './assets/components/Header/Header'
 import Tarjeta from './assets/components/Tarjeta/Tarjeta'
+import Footer from './assets/Footer/Footer'
 import './App.css'
 
 function App() {
@@ -70,7 +71,10 @@ function App() {
           />
         ))}
       </main>
+
+      <Footer />
     </div>
+    
   )
 }
 

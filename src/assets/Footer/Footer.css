@@ -1,0 +1,17 @@
+.floating-text {
+	background-color: #001F61;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+	padding: 7px 25px;
+	position: fixed;;
+	bottom: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	z-index: 999;
+}
+
+.floating-text a {
+	color: #FF7500;
+	text-decoration: none;
+}
