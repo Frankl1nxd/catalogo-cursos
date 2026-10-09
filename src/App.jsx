@@ -1,13 +1,14 @@
-
-import './App.css'
+import Boton from './assets/components/Boton/Boton';
+import './App.css';
 
 function App() {
 
 
   return (
-    <>
-      <h1>Hola, mundo</h1>
-    </>
+    <div>
+      <Boton texto="Probando Boton" onClick={() => alert ('Funciona!!!!!')} />
+      <Boton texto="Otro botón" onClick={() => console.log('Clic en el segundo')} />
+    </div>
   )
 }
 

@@ -1,0 +1,19 @@
+.boton {
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.boton:hover {
+  background-color: #5846d6;
+}
+
+.boton:active {
+  transform: scale(0.97);
+}
