@@ -1,4 +1,5 @@
 import Boton from './assets/components/Boton/Boton';
+import Header from './assets/components/Header/Header';
 import './App.css';
 
 function App() {
@@ -6,8 +7,8 @@ function App() {
 
   return (
     <div>
-      <Boton texto="Probando Boton" onClick={() => alert ('Funciona!!!!!')} />
-      <Boton texto="Otro botón" onClick={() => console.log('Clic en el segundo')} />
+      <Header titulo="Mi Aplicación" subtitulo="Bienvenido a mi aplicación" />
+      <Boton texto="Haz clic aquí" onClick={() => alert('¡Botón clickeado!')} />
     </div>
   )
 }
