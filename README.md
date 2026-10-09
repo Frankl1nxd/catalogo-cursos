@@ -1,16 +1,33 @@
-# React + Vite
+# Catálogo de cursos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web sencilla para explorar un catálogo de cursos de programación. Cada curso muestra su descripción, nivel, duración e icono, y cuenta con un botón que simula la inscripción mediante un mensaje de confirmación.
 
-Currently, two official plugins are available:
+## Sobre este proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Este proyecto es una tarea práctica del módulo de React que estoy cursando actualmente en **Talending**. Su objetivo es aplicar conceptos fundamentales de React, como la composición de componentes reutilizables, el uso de props y el renderizado de listas.
 
-## React Compiler
+## Tecnologías
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- CSS
 
-## Expanding the ESLint configuration
+## Ejecutar el proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Necesitas tener Node.js y npm instalados.
+
+```bash
+npm install
+npm run dev
+```
+
+Vite mostrará en la terminal la dirección local para abrir la aplicación en el navegador.
+
+## Otros comandos
+
+```bash
+npm run build  # Genera la versión de producción
+npm run preview  # Previsualiza la versión de producción
+npm run lint  # Revisa el código con ESLint
+```
