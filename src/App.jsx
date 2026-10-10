@@ -29,7 +29,7 @@ function App() {
       duracion: '15 horas',
       icono: '🎨',
     },
-    
+
     {
       id: 4,
       titulo: 'Node.js y Express',
@@ -46,6 +46,14 @@ function App() {
       duracion: '10 horas',
       icono: '🐙',
     },
+    {
+      id: 6,
+      titulo: 'Git y GitHub',
+      descripcion: 'Control de versiones y trabajo colaborativo en equipo.',
+      nivel: 'Básico',
+      duracion: '10 horas',
+      icono: '🐙',
+    },
   ]
 
   const manejarInscripcion = (titulo) => {
@@ -55,8 +63,13 @@ function App() {
   return (
     <div className="app">
       <Header
-        titulo="Catálogo de Cursos"
-        subtitulo="Aprende programación a tu ritmo"
+        titulo={
+          <>
+            Cursos de <span className="header__subrayado">programación</span> y{' '}
+            <span className="header__subrayado">desarrollo web</span> para aprender a tu ritmo
+          </>
+        }
+        descripcion="Aprender a programar abre puertas. Elige un curso, avanza paso a paso y construye proyectos reales desde el primer día."
       />
 
       <main className="app__lista">
@@ -75,7 +88,7 @@ function App() {
 
       <Footer />
     </div>
-    
+
   )
 }
 
