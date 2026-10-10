@@ -1,7 +1,8 @@
 .floating-text {
-	background-color: #001F61;
+	font-family: 'newsreader', Georgia, serif;
+	background-color: #d6c9a5;
 	border-radius: 10px 10px 0 0;
-	color: #fff;
+	color: #151414;
 	padding: 7px 25px;
 	position: fixed;;
 	bottom: 0px;
@@ -12,6 +13,11 @@
 }
 
 .floating-text a {
-	color: #FF7500;
+	color: #82602b;
 	text-decoration: none;
+}
+
+.floating-text a:hover {
+	color: #4d3a1c;
+	text-decoration: underline;
 }
