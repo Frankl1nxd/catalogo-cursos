@@ -29,6 +29,7 @@ function App() {
       duracion: '15 horas',
       icono: '🎨',
     },
+    
     {
       id: 4,
       titulo: 'Node.js y Express',
