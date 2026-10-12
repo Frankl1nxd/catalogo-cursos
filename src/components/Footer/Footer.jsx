@@ -2,9 +2,9 @@ import './Footer.css';
 
 function Footer() {
     return (
-        <div class="floating-text">
+        <footer class="footer">
             By Franklin Bruzual / <a href="https://github.com/Frankl1nxd/catalogo-cursos" target="_blank">GitHub del proyecto</a>
-        </div>
+        </footer>
     )
 }
 

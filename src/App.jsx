@@ -9,7 +9,6 @@ function App() {
       id: 1,
       titulo: 'JavaScript Moderno',
       descripcion: 'Domina ES6+, funciones, arrays y programación asíncrona.',
-      nivel: 'Básico',
       duracion: '20 horas',
       logo: '/img/img-js.png',
     },
@@ -17,7 +16,6 @@ function App() {
       id: 2,
       titulo: 'React desde Cero',
       descripcion: 'Aprende componentes, props, estado y hooks paso a paso.',
-      nivel: 'Intermedio',
       duracion: '30 horas',
       logo: '/img/img-react1.png',
     },
@@ -25,7 +23,6 @@ function App() {
       id: 3,
       titulo: 'HTML y CSS Responsive',
       descripcion: 'Construye sitios web adaptables con Flexbox y Grid.',
-      nivel: 'Básico',
       duracion: '15 horas',
       logo: '/img/img-html.png',
     },
@@ -34,7 +31,6 @@ function App() {
       id: 4,
       titulo: 'Node.js y Express',
       descripcion: 'Crea APIs REST y servidores backend con JavaScript.',
-      nivel: 'Avanzado',
       duracion: '25 horas',
       logo: '/img/img-node-js.png',
     },
@@ -42,7 +38,6 @@ function App() {
       id: 5,
       titulo: 'Git y GitHub',
       descripcion: 'Control de versiones y trabajo colaborativo en equipo.',
-      nivel: 'Básico',
       duracion: '10 horas',
       logo: '/img/img-github.png',
     },
@@ -50,7 +45,6 @@ function App() {
       id: 6,
       titulo: 'TypeScript desde Cero',
       descripcion: 'Aprende TypeScript para mejorar tu experiencia de desarrollo en JavaScript.',
-      nivel: 'Intermedio',
       duracion: '15 horas',
       logo: '/img/img-typescript.png',
     },
@@ -78,7 +72,6 @@ function App() {
             key={curso.id}
             titulo={curso.titulo}
             descripcion={curso.descripcion}
-            nivel={curso.nivel}
             duracion={curso.duracion}
             logo={curso.logo}
             onInscribir={() => manejarInscripcion(curso.titulo)}

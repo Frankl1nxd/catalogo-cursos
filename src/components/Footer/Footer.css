@@ -1,4 +1,4 @@
-.floating-text {
+footer {
 	font-family: 'newsreader', Georgia, serif;
 	background-color: #d6c9a5;
 	border-radius: 10px 10px 0 0;
@@ -12,12 +12,11 @@
 	z-index: 999;
 }
 
-.floating-text a {
+.footer a {
 	color: #82602b;
 	text-decoration: none;
 }
-
-.floating-text a:hover {
+.footer a:hover {
 	color: #4d3a1c;
 	text-decoration: underline;
 }
