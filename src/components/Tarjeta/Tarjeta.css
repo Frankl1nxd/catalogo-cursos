@@ -1,24 +1,24 @@
 
-.container{
+.tarjeta__container{
     width: 100%;
     min-width: 0;
 }
 
 
 
-.container .card{
+.tarjeta__container .tarjeta__card{
     position: relative;
     cursor: pointer;
     width: 100%;
 }
 
-.container .card .face{
+.tarjeta__container .tarjeta__card .tarjeta__face{
     width: 100%;
     height: 200px;
     transition: 0.5s;
 }
 
-.container .card .face.face1{
+.tarjeta__container .tarjeta__card .tarjeta__face.face1{
     position: relative;
     background: #726b57;
     border-radius: 8px 8px 0 0;
@@ -29,12 +29,12 @@
     transform: translateY(100px);
 }
 
-.container .card:hover .face.face1{
+.tarjeta__container .tarjeta__card:hover .tarjeta__face.face1{
     background: #bbab7f;
     transform: translateY(0);
 }
 
-.container .card .face.face1 .content{
+.tarjeta__container .tarjeta__card .tarjeta__face.face1 .tarjeta__content{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,15 +42,15 @@
     transition: 0.4s;
 }
 
-.container .card:hover .face.face1 .content{
+.tarjeta__container .tarjeta__card:hover .tarjeta__face.face1 .tarjeta__content{
     opacity: 1;
 }
 
-.container .card .face.face1 .content img{
+.tarjeta__container .tarjeta__card .tarjeta__face.face1 .tarjeta__content img{
     max-width: 100px;
 }
 
-.container .card .face.face1 .content h3{
+.tarjeta__container .tarjeta__card .tarjeta__face.face1 .tarjeta__content h3{
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
     margin: 10px 0 0;
@@ -60,7 +60,7 @@
     font-size: 1.5em;
 }
 
-.container .card .face.face2{
+.tarjeta__container .tarjeta__card .tarjeta__face.face2{
     position: relative;
     background: #fff;
     border-radius: 8px 8px 8px 8px;
@@ -73,7 +73,7 @@
     transform: translateY(-100px);
 }
 
-.container .card .face.face2 .content{
+.tarjeta__container .tarjeta__card .tarjeta__face.face2 .tarjeta__content{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -82,11 +82,11 @@
     text-align: center;
 }
 
-.container .card:hover .face.face2{
+.tarjeta__container .tarjeta__card:hover .tarjeta__face.face2{
     transform: translateY(0);
 }
 
-.container .card .face.face2 .content p{
+.tarjeta__container .tarjeta__card .tarjeta__face.face2 .tarjeta__content p{
     font-family: 'Newsreader', Georgia, serif;
     font-weight: 500;
     margin: 0;
@@ -94,7 +94,7 @@
     line-height: 1.5;
 }
 
-.container .card .face.face2 .content span{
+.tarjeta__container .tarjeta__card .tarjeta__face.face2 .tarjeta__content span{
     font-family: 'Manrope', sans-serif;
     color: #333;
     font-weight: 700;
