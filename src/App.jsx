@@ -1,6 +1,6 @@
-import Header from './assets/components/Header/Header'
-import Tarjeta from './assets/components/Tarjeta/Tarjeta'
-import Footer from './assets/Footer/Footer'
+import Header from './components/Header/Header'
+import Tarjeta from './components/Tarjeta/Tarjeta'
+import Footer from './components/Footer/Footer'
 import './App.css'
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       descripcion: 'Domina ES6+, funciones, arrays y programación asíncrona.',
       nivel: 'Básico',
       duracion: '20 horas',
-      icono: '🟨',
+      logo: '/img/img-js.png',
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ function App() {
       descripcion: 'Aprende componentes, props, estado y hooks paso a paso.',
       nivel: 'Intermedio',
       duracion: '30 horas',
-      icono: '⚛️',
+      logo: '/img/img-react1.png',
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ function App() {
       descripcion: 'Construye sitios web adaptables con Flexbox y Grid.',
       nivel: 'Básico',
       duracion: '15 horas',
-      icono: '🎨',
+      logo: '/img/img-html.png',
     },
 
     {
@@ -36,7 +36,7 @@ function App() {
       descripcion: 'Crea APIs REST y servidores backend con JavaScript.',
       nivel: 'Avanzado',
       duracion: '25 horas',
-      icono: '🟢',
+      logo: '/img/img-node-js.png',
     },
     {
       id: 5,
@@ -44,15 +44,15 @@ function App() {
       descripcion: 'Control de versiones y trabajo colaborativo en equipo.',
       nivel: 'Básico',
       duracion: '10 horas',
-      icono: '🐙',
+      logo: '/img/img-github.png',
     },
     {
       id: 6,
-      titulo: 'Git y GitHub',
-      descripcion: 'Control de versiones y trabajo colaborativo en equipo.',
-      nivel: 'Básico',
-      duracion: '10 horas',
-      icono: '🐙',
+      titulo: 'TypeScript desde Cero',
+      descripcion: 'Aprende TypeScript para mejorar tu experiencia de desarrollo en JavaScript.',
+      nivel: 'Intermedio',
+      duracion: '15 horas',
+      logo: '/img/img-typescript.png',
     },
   ]
 
@@ -80,11 +80,12 @@ function App() {
             descripcion={curso.descripcion}
             nivel={curso.nivel}
             duracion={curso.duracion}
-            icono={curso.icono}
+            logo={curso.logo}
             onInscribir={() => manejarInscripcion(curso.titulo)}
           />
         ))}
       </main>
+      
 
       <Footer />
     </div>

@@ -1,14 +1,14 @@
 import Boton from '../Boton/Boton';
 import './Tarjeta.css';
 
-function Tarjeta({titulo, descripcion, nivel, duracion, icono, onInscribir}) {
+function Tarjeta({titulo, descripcion, duracion, logo, onInscribir}) {
     return (
 
         <article className='container'>
             <div className='card'>
                 <div className='face face1'>
                     <div className='content'>
-                        <div >{icono}</div>
+                        <img src={logo} alt={titulo} />
                         <h3 >{titulo}</h3>
 
                     </div>
