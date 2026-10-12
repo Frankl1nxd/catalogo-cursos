@@ -4,6 +4,8 @@
     min-width: 0;
 }
 
+
+
 .container .card{
     position: relative;
     cursor: pointer;
@@ -33,6 +35,9 @@
 }
 
 .container .card .face.face1 .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     opacity: 0.4;
     transition: 0.4s;
 }
@@ -93,4 +98,11 @@
     font-family: 'Manrope', sans-serif;
     color: #333;
     font-weight: 700;
+}
+
+.tarjeta__logo{
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
 }

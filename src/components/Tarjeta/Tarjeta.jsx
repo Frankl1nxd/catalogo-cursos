@@ -8,7 +8,7 @@ function Tarjeta({titulo, descripcion, duracion, logo, onInscribir}) {
             <div className='card'>
                 <div className='face face1'>
                     <div className='content'>
-                        <img src={logo} alt={titulo} />
+                        <img className='tarjeta__logo' src={logo} alt={titulo} />
                         <h3 >{titulo}</h3>
 
                     </div>
